@@ -39,8 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IAsynchUrlTradeDataProvider.cs" />
     <Compile Include="ILogger.cs" />
     <Compile Include="ITradeDataProvider.cs" />
+    <Compile Include="ITradeDataUpdate.cs" />
     <Compile Include="ITradeMapper.cs" />
     <Compile Include="ITradeParser.cs" />
     <Compile Include="ITradeStorage.cs" />
